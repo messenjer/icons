@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/funda-frontend/icons/compare/v1.0.0...v1.0.1) (2020-08-03)
+
+
+### Bug Fixes
+
+* **build:** add npm public access ([c5132c4](https://github.com/funda-frontend/icons/commit/c5132c45872db3fae21ed77389bf91455a89d905))
+
 # 1.0.0 (2020-08-03)
 
 
