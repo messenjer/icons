@@ -3,11 +3,14 @@
   "version": "0.0.0",
   "description": "funda svg icons package",
   "author": "funda",
-  "repository": "github:funda-frontend/icons",
   "keywords": [
     "svg",
     "icon"
   ],
+  "repository": "github:funda-frontend/icons",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "main": "lib/icons.js",
   "files": [
