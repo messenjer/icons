@@ -13,9 +13,9 @@ This package contains optimized SVG icons to be used on funda
 
 ## Sample usage
 
-    npm install funda-icons
+    npm install @funda/icons
 
-    import { thumbsDown } from "funda-icons";
+    import { thumbsDown } from "@funda/icons";
 
     /*{
         title: 'thumbs-down',
