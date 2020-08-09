@@ -11,7 +11,7 @@ This package contains optimized SVG icons to be used on funda
 - `role="img"` is added;
 - Dimensions, i.e: `width` and `height` are removed
 
-## Sample usage
+## Usage
 
     npm install @funda/icons
 
