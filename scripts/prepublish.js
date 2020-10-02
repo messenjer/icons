@@ -11,7 +11,7 @@ const { filenameToTitle } = require("./utils");
 const INDEX_FILE = `${__dirname}/../lib/icons.js`;
 const LIB_DIR = `${__dirname}/../lib/assets`;
 const SVG_ICONS_DIR = `${__dirname}/../assets`;
-const icons = {};
+const icons = [];
 
 mkdirp("lib/assets").then(() => readSvgIconsList());
 
@@ -24,15 +24,20 @@ const readSvgIconsList = () =>
         svg: fs.readFileSync(`${SVG_ICONS_DIR}/${file}`, "utf8"),
       };
 
-      icons[title] = icon;
+      icons.push(title);
 
       // write the static .js file for the icon
       fs.writeFileSync(
         `${LIB_DIR}/${title}.js`,
-        `module.exports=${JSON.stringify(icon)};`
+        `export default ${JSON.stringify(icon)};`
       );
     });
 
+    const importIcons = icons.map((i) => `import ${i} from "./assets/${i}";`);
+
     // write our generic icons.js
-    fs.writeFileSync(INDEX_FILE, `module.exports=${JSON.stringify(icons)};`);
+    fs.writeFileSync(
+      INDEX_FILE,
+      `${importIcons.join("")}export{${icons.join(",")}};`
+    );
   });
