@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/funda-frontend/icons/compare/v1.0.2...v1.1.0) (2020-10-06)
+
+
+### Bug Fixes
+
+* **publish:** use export module ([0a864f5](https://github.com/funda-frontend/icons/commit/0a864f59a51d1f20cf86a3d49451228a1a16f7ac))
+
+
+### Features
+
+* add new icons ([3531db1](https://github.com/funda-frontend/icons/commit/3531db11e5da287f579425fa90e24f5d04c12e85))
+
 ## [1.0.2](https://github.com/funda-frontend/icons/compare/v1.0.1...v1.0.2) (2020-08-09)
 
 
