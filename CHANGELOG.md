@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/funda-frontend/icons/compare/v1.1.0...v1.2.0) (2020-11-04)
+
+
+### Features
+
+* **icon:** add check-bold ([c0d15f9](https://github.com/funda-frontend/icons/commit/c0d15f9a3180e239f1995f74d349af886f507ceb))
+* **overview:** list icons ([ffdf4c7](https://github.com/funda-frontend/icons/commit/ffdf4c76c5aa14795d6ffe128fe92179e5600d9d))
+
 # [1.1.0](https://github.com/funda-frontend/icons/compare/v1.0.2...v1.1.0) (2020-10-06)
 
 
