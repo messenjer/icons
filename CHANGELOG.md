@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/funda-frontend/icons/compare/v1.2.0...v1.2.1) (2020-11-17)
+
+
+### Bug Fixes
+
+* **release:** add info about semantic-release ([d498fe3](https://github.com/funda-frontend/icons/commit/d498fe39bb78e6ff12ff3b08adf2cab46019607a))
+
 # [1.2.0](https://github.com/funda-frontend/icons/compare/v1.1.0...v1.2.0) (2020-11-04)
 
 
