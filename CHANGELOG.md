@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/funda-frontend/icons/compare/v1.2.1...v1.3.0) (2020-11-24)
+
+
+### Features
+
+* **icons:** add close-bold, euro and houses icon  ([85f2218](https://github.com/funda-frontend/icons/commit/85f22181e2e99872777caec2115b7bb44843a470))
+
 ## [1.2.1](https://github.com/funda-frontend/icons/compare/v1.2.0...v1.2.1) (2020-11-17)
 
 
