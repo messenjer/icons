@@ -53,9 +53,9 @@ jobs:
           destination_dir: ${{ steps.extract_branch.outputs.branch }}
 
       - name: Comment PR 📝
-          uses: harupy/comment-on-pr@master
-          if: github.event_name == 'pull_request'
-          env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
-              filename: comment-link.md
+        uses: harupy/comment-on-pr@master
+        if: github.event_name == 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: comment-link.md
