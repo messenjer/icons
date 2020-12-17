@@ -1,3 +1,17 @@
+# [1.5.0](https://github.com/funda-frontend/icons/compare/v1.4.0...v1.5.0) (2020-12-17)
+
+
+### Bug Fixes
+
+* only use rem ([df4b5ee](https://github.com/funda-frontend/icons/commit/df4b5eec2da3bc97bc7f8cbb23d52e933473bb6b))
+* use async await ([e296324](https://github.com/funda-frontend/icons/commit/e296324b1890309bcf088f65ddf6a2dcc11b12ae))
+* **styling:** make it pretty ([db04c3e](https://github.com/funda-frontend/icons/commit/db04c3ebce9f8b716ef10e1c06cb845b9dd82d54))
+
+
+### Features
+
+* copy raw svg on icon clicked ([61206a8](https://github.com/funda-frontend/icons/commit/61206a83731843c3e51b7876b6189b09903cba40))
+
 # [1.4.0](https://github.com/funda-frontend/icons/compare/v1.3.0...v1.4.0) (2020-12-17)
 
 
