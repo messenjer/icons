@@ -1,3 +1,22 @@
+# [1.4.0](https://github.com/funda-frontend/icons/compare/v1.3.0...v1.4.0) (2020-12-17)
+
+
+### Bug Fixes
+
+* **preview:** add webpack plugins ([e88f1b8](https://github.com/funda-frontend/icons/commit/e88f1b835eaf839a7c5cd61edf696b9859f35bbb))
+* **preview:** change deployment path ([83bab91](https://github.com/funda-frontend/icons/commit/83bab91a37cbdf7d0297ae30313383d045ec193b))
+* try remove emoji and add dist to gitignore ([0dd15e8](https://github.com/funda-frontend/icons/commit/0dd15e80ab4a642b20cf1fcbf5c94a304908beb5))
+* update dev script ([ca0a5b5](https://github.com/funda-frontend/icons/commit/ca0a5b5313df130b1cf6b565b0451e7e7419d6f6))
+* **preview:** update publish_dir ([79405af](https://github.com/funda-frontend/icons/commit/79405af4e68896c2d2bd3e615a0554132d1936fc))
+* **preview:** update webpack config ([1d32d63](https://github.com/funda-frontend/icons/commit/1d32d63081ef20da7059819055c0daa482c3afbd))
+* **preview:** update yml syntax ([0511b8e](https://github.com/funda-frontend/icons/commit/0511b8e70865d7ba7be55a89806ba2a60a27956a))
+* update index.js path ([67fb9a4](https://github.com/funda-frontend/icons/commit/67fb9a4c2e8796821d9716c77b9df99c52d2f31d))
+
+
+### Features
+
+* **preview:** add comment to PR ([87277dc](https://github.com/funda-frontend/icons/commit/87277dc5d2cd998d052fe651cbbeeced70ba4a98))
+
 # [1.3.0](https://github.com/funda-frontend/icons/compare/v1.2.1...v1.3.0) (2020-11-24)
 
 
