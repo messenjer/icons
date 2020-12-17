@@ -34,8 +34,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "dev": "npm start",
-    "start": "webpack serve",
+    "dev": "npm run build && webpack serve",
     "build": "npm run prepublishOnly",
     "release": "npx semantic-release",
     "minify": "svgo --config=.svgo.yml",
