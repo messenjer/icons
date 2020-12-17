@@ -55,3 +55,7 @@ If a icon is orginally designed in Sketch, you'll need to do some manual steps f
 - Remove the widht and height properties from the `<svg />` tag, but leave the viewbox property untouched
 
 We have a precommit hook that will optimize the svg icons for usage.
+
+# Latest
+
+https://funda-frontend.github.io/icons/latest/
