@@ -1,5 +1,0 @@
-plugins:
-  - addAttributesToSVGElement:
-      attributes:
-        - role: img
-  - removeDimensions: true
