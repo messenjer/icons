@@ -7,7 +7,6 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
   devServer: {
-    contentBase: "./src",
     hot: true,
     stats: "errors-only",
   },
