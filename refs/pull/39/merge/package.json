@@ -1,0 +1,52 @@
+{
+  "name": "@funda/icons",
+  "version": "1.3.0",
+  "description": "funda svg icons package",
+  "author": "funda",
+  "keywords": [
+    "svg",
+    "icon"
+  ],
+  "repository": "github:funda-frontend/icons",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "main": "lib/icons.js",
+  "files": [
+    "lib",
+    "assets"
+  ],
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/npm": "^7.0.5",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "camel-case": "^4.1.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "mkdirp": "^1.0.4",
+    "semantic-release": "^17.1.1",
+    "svgo": "^1.3.2",
+    "webpack": "^5.10.3",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "dev": "npm run build && webpack serve",
+    "build": "npm run prepublishOnly && webpack",
+    "release": "npx semantic-release",
+    "minify": "svgo --config=.svgo.yml",
+    "prepare": "npm run build",
+    "prepublishOnly": "node ./scripts/prepublish.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.svg": "npm run minify --"
+  }
+}
