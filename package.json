@@ -35,7 +35,7 @@
   },
   "scripts": {
     "dev": "npm run build && webpack serve",
-    "build": "npm run prepublishOnly",
+    "build": "npm run prepublishOnly && webpack",
     "release": "npx semantic-release",
     "minify": "svgo --config=.svgo.yml",
     "prepare": "npm run build",
