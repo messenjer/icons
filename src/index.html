@@ -1,9 +1,21 @@
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="https://assets.fstatic.nl/master_3351/assets/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://assets.fstatic.nl/master_3351/assets/favicon-16x16.png" sizes="16x16">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" type="text/css" href="./index.css" />
+
+    <title>funda icons package</title>
   </head>
   <body>
     <div id="app">
+    <header>
+    <div class="container">
       <img
         class="logo"
         alt="Funda"
@@ -15,8 +27,10 @@
         placeholder="Type here to search..."
         v-model="searchKeyword"
       />
+      </div>
+      </header>
 
-      <ul class="icons">
+      <ul class="icons container">
         <li v-for="(icon, index) in filteredIcons" class="icon">
           <span v-html="icon.svg" :title="icon.title"></span>
           <p>{{ icon.title }}</p>
