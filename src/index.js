@@ -28,15 +28,13 @@ var app = new Vue({
           (error) => `An error occurred while loading the component: ${error}`
         );
     },
-    copy(icon) {
-      navigator.clipboard.writeText(icon.svg).then(
-        () => {
-          alert(`${icon.title} raw svg is copied to your clipboard`);
-        },
-        (err) => {
-          alert(`Can't copy ${icon.title} raw svg`);
-        }
-      );
+    async copy(icon) {
+      try {
+        await navigator.clipboard.writeText(icon.svg);
+        alert(`"${icon.title}" svg is copied to your clipboard`);
+      } catch (err) {
+        alert(`Can't copy ${icon.title} raw svg`);
+      }
     },
   },
 });
