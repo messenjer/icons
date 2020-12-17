@@ -35,7 +35,7 @@ jobs:
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
+          publish_dir: ./src
           destination_dir: latest
 
       - name: Extract path 🔧
@@ -49,7 +49,7 @@ jobs:
         if: github.event_name == 'pull_request'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
+          publish_dir: ./src
           destination_dir: ${{ steps.extract_branch.outputs.branch }}
 
       - name: Comment PR 📝
