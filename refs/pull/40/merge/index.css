@@ -16,12 +16,12 @@ header .container {
 }
 
 .container {
-  max-width: 984px;
+  max-width: 61.5rem;
   margin: auto;
 }
 
 .logo {
-  height: 36px;
+  height: 2.25rem;
 }
 
 .search {
@@ -40,7 +40,7 @@ header .container {
 }
 
 .icon {
-  width: 120px;
+  width: 7.5rem;
   padding: 1rem 0 0;
   text-align: center;
   background: #f2f2f2;
@@ -48,11 +48,11 @@ header .container {
 }
 
 .icon svg {
-  width: 48px;
-  height: 48px;
+  width: 3rem;
+  height: 3rem;
   cursor: pointer;
 }
 
 .icon p {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
