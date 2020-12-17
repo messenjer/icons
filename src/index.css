@@ -5,6 +5,7 @@ body {
 
 header {
   background: #f7a100;
+  margin-bottom: 1rem;
 }
 
 header .container {
@@ -49,6 +50,7 @@ header .container {
 .icon svg {
   width: 48px;
   height: 48px;
+  cursor: pointer;
 }
 
 .icon p {
