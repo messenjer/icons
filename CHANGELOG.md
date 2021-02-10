@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/funda-frontend/icons/compare/v1.5.0...v1.6.0) (2021-02-10)
+
+
+### Bug Fixes
+
+* **icons:** remove obsolete ids from the svg ([a94b531](https://github.com/funda-frontend/icons/commit/a94b531ac9acbcf69c2b50a091f7c259b11debd5))
+
+
+### Features
+
+* **icon:** add grip and crop icons ([c26a771](https://github.com/funda-frontend/icons/commit/c26a7719daddeb966794a4ae43d1991ad3802bfe))
+
 # [1.5.0](https://github.com/funda-frontend/icons/compare/v1.4.0...v1.5.0) (2020-12-17)
 
 
