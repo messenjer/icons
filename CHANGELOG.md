@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/funda-frontend/icons/compare/v1.6.0...v1.7.0) (2021-04-14)
+
+
+### Features
+
+* **icon:** add website icon ([ea929f8](https://github.com/funda-frontend/icons/commit/ea929f82e930f1c137db0c02e1c3c8633db0180f))
+
 # [1.6.0](https://github.com/funda-frontend/icons/compare/v1.5.0...v1.6.0) (2021-02-10)
 
 
