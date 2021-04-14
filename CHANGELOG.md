@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/funda-frontend/icons/compare/v1.7.0...v1.8.0) (2021-04-14)
+
+
+### Features
+
+* **fundadesk:** add fundadesk icons ([873aa0d](https://github.com/funda-frontend/icons/commit/873aa0df78ef6609183541a7bfb8818203f25c28))
+
 # [1.7.0](https://github.com/funda-frontend/icons/compare/v1.6.0...v1.7.0) (2021-04-14)
 
 
