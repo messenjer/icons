@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/funda-frontend/icons/compare/v1.8.0...v1.9.0) (2021-04-19)
+
+
+### Features
+
+* **icon:** add train icon ([771b1bb](https://github.com/funda-frontend/icons/commit/771b1bb2971f58ebde3917b2c3637d99af562bf1))
+
 # [1.8.0](https://github.com/funda-frontend/icons/compare/v1.7.0...v1.8.0) (2021-04-14)
 
 
