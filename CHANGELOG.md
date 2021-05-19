@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/funda-frontend/icons/compare/v1.9.0...v1.10.0) (2021-05-19)
+
+
+### Features
+
+* **handshake:** add handshake icon ([615dcf3](https://github.com/funda-frontend/icons/commit/615dcf3c2dce41c6bc3fce1972dd7d787419c132))
+
 # [1.9.0](https://github.com/funda-frontend/icons/compare/v1.8.0...v1.9.0) (2021-04-19)
 
 
