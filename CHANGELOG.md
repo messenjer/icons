@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/funda-frontend/icons/compare/v1.10.0...v1.11.0) (2021-06-07)
+
+
+### Features
+
+* add virtual tour icon ([136bdb1](https://github.com/funda-frontend/icons/commit/136bdb14f59efe16f7f8e51ac38f118ebcf42660))
+
 # [1.10.0](https://github.com/funda-frontend/icons/compare/v1.9.0...v1.10.0) (2021-05-19)
 
 
