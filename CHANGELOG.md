@@ -1,3 +1,23 @@
+# [2.0.0](https://github.com/funda-frontend/icons/compare/v1.11.0...v2.0.0) (2021-06-11)
+
+
+### Bug Fixes
+
+* **raw svg:** default dimension and fill ([8a3c147](https://github.com/funda-frontend/icons/commit/8a3c1470e1e6864a46812a4d84fe2bd14d3f484b))
+* **viewer:** update style and fix import ([c5711d9](https://github.com/funda-frontend/icons/commit/c5711d9b4769a76c1ef30ed2baa5cbf5f9692f2b))
+
+
+### Features
+
+* **format:** add support for vue and cjs format ([4a0aec6](https://github.com/funda-frontend/icons/commit/4a0aec67ed6b44869ce66f893c03538a7054e1eb))
+
+
+### BREAKING CHANGES
+
+* **raw svg:** all svg now have default width and height attribute
+all svg now have default fill=currentColor attribute
+* **format:** /lib/assets folder doesnt exist. it's replaced by corresponding format (cjs/esm/vue)
+
 # [1.11.0](https://github.com/funda-frontend/icons/compare/v1.10.0...v1.11.0) (2021-06-07)
 
 
