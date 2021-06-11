@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/funda-frontend/icons/compare/v2.0.0...v2.0.1) (2021-06-11)
+
+
+### Bug Fixes
+
+* **svgo:** use inline style ([a9acd2b](https://github.com/funda-frontend/icons/commit/a9acd2bd88b2069aa9bfb0392a5e1d9e7b0efc79))
+
 # [2.0.0](https://github.com/funda-frontend/icons/compare/v1.11.0...v2.0.0) (2021-06-11)
 
 
