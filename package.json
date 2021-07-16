@@ -58,7 +58,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "prepare": "husky install"
+      "commit-msg": "commitlint -E"
     }
   },
   "lint-staged": {
