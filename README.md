@@ -58,7 +58,7 @@ In that case the raw SVG icons are also available on the package, you just need 
 All icons should be designed following the [instructions found on Frontify](https://funda.frontify.com/d/d9gw4zTPqYFU/style-guide#/building-blocks/iconography). This way, all icons will appear as a family and will make sure an icon can be implemented easily.
 
 
-## How push you changes
+## How push your changes
 
 This repo uses [commitlint](https://github.com/conventional-changelog/commitlint), which means that it follows specific commit message rules, If the messages are not on the expected format it wont be possible to commit/push your changes.
 
