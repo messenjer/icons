@@ -4,7 +4,7 @@
 
 This package contains optimized SVG icons to be used on funda
 
-Important: note that we use [semantic-release](https://github.com/semantic-release/semantic-release) and therefore any commits with the type "feat" or "fix" or have "BREAKING CHANGE" in the message will automatically release a new version to NPM.
+Important: note that we use [semantic-release](https://github.com/semantic-release/semantic-release) and therefore any commits with the type "feat" or "fix" or have "BREAKING CHANGE" in the message will automatically release a new version to NPM. To enforce that we use [commitlint](https://github.com/conventional-changelog/commitlint)
 
 ### Optimisations using [svgo](https://github.com/svg/svgo):
 
