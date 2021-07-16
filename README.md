@@ -11,7 +11,7 @@ Important: note that we use [semantic-release](https://github.com/semantic-relea
 - All default configuration from svgo are applied, including make everything inline;
 - `role="img"` is added;
 - Dimensions, i.e: `width` and `height` are removed
-
+  
 ## Usage
 
 ### Installation
