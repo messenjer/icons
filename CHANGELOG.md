@@ -1,3 +1,19 @@
+# [2.1.0](https://github.com/funda-frontend/icons/compare/v2.0.1...v2.1.0) (2021-07-19)
+
+
+### Bug Fixes
+
+* **release:** update commitlint rule, bump husky ([bb06962](https://github.com/funda-frontend/icons/commit/bb0696272c300fe0966a5dda85f5ac7ff4014a5e))
+
+
+### Features
+
+* add husky and commitlint ([3698b01](https://github.com/funda-frontend/icons/commit/3698b0172ab07502fc3d558c55d348d3e18735b2))
+* add husky and commitlint ([b7aec34](https://github.com/funda-frontend/icons/commit/b7aec34b5891ef4464508c6cc156e9bf28c12adb))
+* add husky config ([e207d12](https://github.com/funda-frontend/icons/commit/e207d12348b8c9cc73f509a553491ae4136888ad))
+* update readme ([7e0d542](https://github.com/funda-frontend/icons/commit/7e0d54214ad06801a285ff667aee49d5c8911b02))
+* update readme ([dad68d3](https://github.com/funda-frontend/icons/commit/dad68d353154845914139f3c2b6a86b0749c551f))
+
 ## [2.0.1](https://github.com/funda-frontend/icons/compare/v2.0.0...v2.0.1) (2021-06-11)
 
 
