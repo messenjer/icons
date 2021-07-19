@@ -25,6 +25,8 @@
     "assets"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
     "@semantic-release/git": "^9.0.0",
@@ -33,7 +35,7 @@
     "camel-case": "^4.1.1",
     "clean-webpack-plugin": "3.0.0",
     "copy-webpack-plugin": "9.0.1",
-    "husky": "^5.0.9",
+    "husky": "^5.2.0",
     "lint-staged": "^11.0.0",
     "mkdirp": "^1.0.4",
     "npm-run-all": "4.1.5",
@@ -51,7 +53,8 @@
     "build:vue": "node ./scripts/build.js vue",
     "release": "npx semantic-release",
     "minify": "svgo --config=svgo.config.js",
-    "prepublishOnly": "run-p build:*"
+    "prepublishOnly": "run-p build:*",
+    "postinstall": "husky install"
   },
   "husky": {
     "hooks": {
@@ -60,5 +63,6 @@
   },
   "lint-staged": {
     "*.svg": "npm run minify --"
-  }
+  },
+  "dependencies": {}
 }

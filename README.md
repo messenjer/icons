@@ -11,7 +11,7 @@ Important: note that we use [semantic-release](https://github.com/semantic-relea
 - All default configuration from svgo are applied, including make everything inline;
 - `role="img"` is added;
 - Dimensions, i.e: `width` and `height` are removed
-
+  
 ## Usage
 
 ### Installation
@@ -56,6 +56,20 @@ In that case the raw SVG icons are also available on the package, you just need 
 ## Adding new icons
 
 All icons should be designed following the [instructions found on Frontify](https://funda.frontify.com/d/d9gw4zTPqYFU/style-guide#/building-blocks/iconography). This way, all icons will appear as a family and will make sure an icon can be implemented easily.
+
+
+## How push your changes
+
+This repo uses [commitlint](https://github.com/conventional-changelog/commitlint), which means that it follows specific commit message rules, If the messages are not on the expected format it wont be possible to commit/push your changes.
+
+Example of commit message: 
+
+    'feat(branch_name): commit message' or 'fix(branch_name): commit message'
+
+
+PS: It is recommended to use the terminal for commit, if you use any GUI it might be necessary to update you local variable PATH on your GUI.
+Reference: [Husky issues](https://typicode.github.io/husky/#/?id=command-not-found) 
+
 
 ### Using Illustrator
 
