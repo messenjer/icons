@@ -54,7 +54,7 @@
     "release": "npx semantic-release",
     "minify": "svgo --config=svgo.config.js",
     "prepublishOnly": "run-p build:*",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
