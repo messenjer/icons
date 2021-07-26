@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/funda-frontend/icons/compare/v2.1.0...v2.1.1) (2021-07-26)
+
+
+### Bug Fixes
+
+* **husky:** move husky to prepare ([2cf33c9](https://github.com/funda-frontend/icons/commit/2cf33c9ca2dbbf738f790353c44827f23cc9b132))
+
 # [2.1.0](https://github.com/funda-frontend/icons/compare/v2.0.1...v2.1.0) (2021-07-19)
 
 
