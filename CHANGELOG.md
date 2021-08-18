@@ -1,3 +1,12 @@
+# [2.2.0](https://github.com/funda-frontend/icons/compare/v2.1.1...v2.2.0) (2021-08-18)
+
+
+### Features
+
+* **feature/layers-icon:** added layers icon ([d115779](https://github.com/funda-frontend/icons/commit/d1157795eadbed24f04047de5a2e6a6c9ca4e0ed))
+* **icon:** add layers icon ([7b10a90](https://github.com/funda-frontend/icons/commit/7b10a9031c830d01752fd76a38b8ab607c42f3f3))
+* **icon:** add layers icon ([6d020ee](https://github.com/funda-frontend/icons/commit/6d020ee88a43d4aa4791c5bc35445abbbe0517b2))
+
 ## [2.1.1](https://github.com/funda-frontend/icons/compare/v2.1.0...v2.1.1) (2021-07-26)
 
 
