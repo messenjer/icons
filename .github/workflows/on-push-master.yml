@@ -1,6 +1,6 @@
 #from https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/github-actions.md
 
-name: Release
+name: Release and deploy latest on push to master
 on:
   push:
     branches:
@@ -23,11 +23,28 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: '14'
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: npm-${{ hashFiles('package-lock.json') }}
+          restore-keys: npm-
+
       - name: Install dependencies
-        run: npm ci
+        run: npm ci --ignore-scripts
+
+      - name: Deploy latest
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./dist
+          destination_dir: latest
+
       - name: Release
         run: npx semantic-release
