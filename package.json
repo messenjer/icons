@@ -33,7 +33,7 @@
     "@semantic-release/npm": "^7.0.5",
     "@semantic-release/release-notes-generator": "^9.0.1",
     "camel-case": "^4.1.1",
-    "clean-webpack-plugin": "3.0.0",
+    "clean-webpack-plugin": "4.0.0",
     "copy-webpack-plugin": "9.0.1",
     "husky": "^7.0.1",
     "lint-staged": "^11.0.0",
