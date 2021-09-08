@@ -46,6 +46,7 @@
     "webpack-dev-server": "^4.1.1"
   },
   "scripts": {
+    "start": "npm run dev",
     "dev": "npm run prepublishOnly && webpack serve --mode=development",
     "build": "npm run prepublishOnly && webpack --mode=production",
     "build:esm": "node ./scripts/build.js esm",

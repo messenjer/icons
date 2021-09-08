@@ -9,9 +9,14 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
   devServer: {
-    contentBase: "./dist",
     hot: true,
-    stats: "errors-only",
+    static: {
+      directory: "./dist",
+    },
+    client: {
+      overlay: true,
+      logging: 'error',
+    },
   },
   plugins: [
     new CleanWebpackPlugin(),
