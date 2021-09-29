@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/funda-frontend/icons/compare/v2.3.0...v2.3.1) (2021-09-29)
+
+
+### Bug Fixes
+
+* **exports:** update pkg entry points ([ae80234](https://github.com/funda-frontend/icons/commit/ae80234a337bf92a9389879945a502e03dbdbe38))
+
 # [2.3.0](https://github.com/funda-frontend/icons/compare/v2.2.1...v2.3.0) (2021-09-29)
 
 
