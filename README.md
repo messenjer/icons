@@ -6,8 +6,6 @@ This package contains optimized SVG icons to be used on Funda
 
 ## Usage
 
----
-
 ### Installation
 
 ```sh
@@ -30,7 +28,7 @@ const Alert = require("@funda/icons/lib/cjs/alert");
 
 Both ESM and CJS format will return:
 
-```json
+```txt
 {
     title: 'thumbs-down',
     svg: '<svg role="img" viewBox="0 0 24 24" ...'
@@ -61,13 +59,14 @@ cp node_modules/@funda/icons/assets/* src/SPECIFY_YOUR_PATH
 
 ## Adding new icons
 
----
-
 1. Create a new branch
 1. Add the svg of the new icon in the assets folder
 1. Commit your changes, following the rules of [commitlint]
 1. `npm run build`
 1. Create a pull request against the master branch
+1. Get approval from a colleague
+1. Merge the pull request
+1. Github will automatically create a release for you
 
 ### Committing changes
 
@@ -83,8 +82,6 @@ PS: It is recommended to use the terminal for commit, if you use any GUI it migh
 Reference: [Husky issues][2]
 
 ## Creating new icons
-
----
 
 ### Using Illustrator
 
@@ -108,15 +105,11 @@ If a icon is originally designed in Sketch, you'll need to do some manual steps 
 
 ## Other information
 
----
-
 We have a pre-commit hook that will optimize the svg icons using [svgo]
 
 - All default configuration from svgo are applied, including make everything inline;
 - `role="img"` is added;
 - Dimensions, i.e: `width` and `height` are removed
-
----
 
 ## Latest
 
