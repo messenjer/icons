@@ -16,7 +16,8 @@
     ".": {
       "import": "./lib/esm/index.js",
       "require": "./lib/cjs/index.js"
-    }
+    },
+    "./lib/vue": "./lib/vue/index.js"
   },
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
