@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/funda-frontend/icons/compare/v2.2.1...v2.3.0) (2021-09-29)
+
+
+### Features
+
+* **icon:** add pause icon ([e731100](https://github.com/funda-frontend/icons/commit/e73110094709b0c24d8ef714148860d4ea0c7d52))
+
 ## [2.2.1](https://github.com/funda-frontend/icons/compare/v2.2.0...v2.2.1) (2021-08-18)
 
 
