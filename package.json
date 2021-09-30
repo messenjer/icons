@@ -66,8 +66,7 @@
   "lint-staged": {
     "*.svg": "npm run minify --"
   },
-  "dependencies": {},
   "engines": {
-    "node": "^14"
+    "node": "^14.17"
   }
 }
