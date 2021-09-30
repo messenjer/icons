@@ -67,6 +67,6 @@
     "*.svg": "npm run minify --"
   },
   "engines": {
-    "node": "^14.17"
+    "node": ">=14.17 <17"
   }
 }
