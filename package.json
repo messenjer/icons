@@ -23,7 +23,8 @@
   "module": "lib/esm/index.js",
   "files": [
     "lib",
-    "assets"
+    "assets",
+    "!lib/assets"
   ],
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
